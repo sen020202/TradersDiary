@@ -1,0 +1,62 @@
+﻿$FK5.0$ 2/28/2024 6:03:18 PM
+170003,classify using brush size=20/from=3/to=1
+170004,raster display off
+170002,active color=3;place circle center
+170001,active color=4;place circle center
+30002,draw vertical section
+130005,copy extended
+130006,dmsg cursor previouswindow
+b0005,scan display view=1/off=all/on=6/color=Class/weight=1
+130007,scan display view=3/off=all/on=2/color=Class/weight=1
+130008,scan run macro D:\LiDAR\RAHS\Support files\ground.mac
+f0002,lv=Add to Ground;co=24;lc=0;wt=1;Place circle
+f000a,scan display view=1/off=all/on=3/color=CLASS/weight=1
+b000b,scan display view=1/off=all/on=2,6,8,17,7/color=shading/weight=2
+13000c,scan display view=1/off=all/on=all/color=Class/weight=2
+13000b,scan display view=1/off=all/on=/color=Class/weight=2
+13000a,scan display view=1/off=all/on=2/color=Class/weight=2
+130009,scan display view=1/off=all/on=2/color=shading/weight=2
+1b0002,classify using brush size=20/from=9999/to=10
+1b0004,raster display on
+1b0001,classify using brush size=20/from=9999/to=18
+7000a,scan display view=1/off=all/on=8/color=Class/weight=1
+7000b,scan display view=1/off=all/on=6/color=Class/weight=1
+b000a,scan display view=1/off=all/on=2,6/color=shading/weight=1
+b000c,scan display view=1/off=all/on=2,8,7,10/color=shading/weight=2
+b0001,scan display view=1/off=all/on=8,17,6/color=Class/weight=1
+b0002,scan display view=1/off=all/on=7/color=Class/weight=1
+b0007,scan display view=1/off=all/on=2,7/color=Class/weight=1
+b0008,scan display view=1/off=all/on=2,10/color=Class/weight=1
+70007,scan display view=1/off=all/on=2,7,17/color=shading/weight=2
+70009,scan display view=1/off=all/on=2,7,10,17,8/color=shading/weight=2
+7000c,ADD POINT TO GROUND reprocess=5/from=3/to=2
+1b0003,scan display view=1/off=all/on=all/color=Depth/weight=2
+70008,scan display view=1/off=all/on=1,2,6,7,10,8/color=shading/weight=2
+1b0005,raster display off
+b0004,scan display view=1/off=all/on=1,2,3,6,7,17,9/color=Class/weight=1
+b0006,scan display view=1/off=all/on=1,9,6,17/color=Class/weight=1
+f0001,scan run macro C:\RAHA\MACRO\Ground_veg.mac
+3000a,classify below line 1,3,4,2,9,6 7
+b0009,scan display view=1/off=all/on=18,10/color=Class/weight=1
+b0003,scan display view=1/off=all/on=1,3,4/color=Class/weight=1
+70002,scan display view=1/off=all/on=2,9,7/color=shading/weight=2
+130004,Scan display on
+130003,display Shaded Surface off
+3000c,classify below line 1 2
+70001,scan display view=1/off=all/on=2/color=shading/weight=2/speed=slow
+30005,classify above line 3,4,5 6
+30006,classify below line 3,4,5 6
+30003,classify above line 3,4,5 1
+30004,classify below line 3,4,5,6 1
+70005,scan display view=3/off=all/on=2,6/color=class/weight=2
+70006,scan display view=3/off=all/on=9/color=class/weight=2
+3000b,classify below line 2,5,6,3,4,7 18
+70004,scan display view=1/off=all/on=2,9,12,15,26/color=shading/weight=2/Azimuth=2/Angle=50
+1f0001,scan run macro C:\LIDAR\HRAH\Irazu\Macro\Below_Ground.mac
+70003,scan display view=1/off=all/on=1,2,3,4,6,7,15,9,12,26,11/color=shading/weight=2/speed=slow
+30001,pan view
+130001,classify fence 1 3
+130002,classify fence 3,4,5 1
+30009,classify above line 6 7
+30007,classify above line 1 3
+30008,classify below line 1,6 3

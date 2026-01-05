@@ -1,0 +1,41 @@
+﻿$FK5.0$ 16-05-2024 10:10:14
+130002,inputmanager popupitem -605,2
+130004,inputmanager popupitem -605,4
+130003,inputmanager popupitem -605,3
+130005,inputmanager popupitem -605,5
+130006,inputmanager popupitem -605,6
+130007,inputmanager popupitem -605,7
+130008,inputmanager popupitem -605,8
+130009,inputmanager popupitem -605,9
+13000a,inputmanager popupitem -605,10
+b0005,inputmanager popupitem -548,5
+b0006,inputmanager popupitem -548,6
+b0007,inputmanager popupitem -548,7
+b0008,inputmanager popupitem -548,8
+b0009,inputmanager popupitem -548,9
+b000a,inputmanager popupitem -548,10
+b000b,inputmanager popupitem -548,11
+b000c,inputmanager popupitem -548,12
+30006,move section
+30001,win area ext
+30005,draw vertical section
+30003,pan view
+70008,classify below line 2
+70007,classify above ine 5
+b0001,place fence circle
+70001,scan display view=1/off=all/on=2/color=shading
+b0004,place fence SHAPE
+f0005,place fence SHAPE
+f0006,scan display view=1/off=all/on=1,2,3,4,5/color=class;scan run macro D:\MARIK\Bunds_Recovery.mac;scan undo display
+3000c,raster display toggle
+30004,classify above line 6
+30007,Classify above line 1
+3000a,classify below line 2
+30002,place contour
+b0003,scan display view=1/off=all/on=1,2,3,4,5/color=class;scan run macro D:\MARIK\PILOT\ICGC\Bunds_Recovery.mac;scan undo display
+b0002,scan display view=1/off=all/on=1,2,3,4,59,26/color=class;scan run macro D:\MARIK\PILOT\Portugal\Add_ground.mac;scan undo display
+70002,scan display view=1/off=all/on=2,20,22/color=shading
+30008,classify below line 1
+30009,Classify above line 20
+3000b,classify below line 22
+70003,scan display view=1/off=all/on=2,1,22/color=shading
